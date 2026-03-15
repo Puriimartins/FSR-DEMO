@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --azul: #22D4FD;
+  --preto: #000000;
+  --branco: #FFFFFF;
+}
+
+
+* {
+
+
+margin: 0;
+padding: 0;
+}
+
+
+body {
+   box-sizing: border-box;
+   /*height: 100vh; */
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Iosevka Charon", monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+ }
+
+ strong {
+    color: #22D4FD;
+
+ }
+
+ .apresentacao {
+      margin: 10% 25%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+ } 
+
+ .burguer {
+   width: 400%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  
+ }
+
+ .titulo {
+   height: 60px;
+ }
+
+ .insta {
+  margin: 50px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .botao {
+ /* background-color: blueviolet; */
+  border:2px solid #22D4FD;
+  width: 100px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 1.25rem;
+  padding: 9px;
+  text-decoration: none;
+  color: aliceblue;
+ }
+
+ .introducao {
+      margin: 3%;
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+ }
+
+ .obs {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .botao:hover {
+  background-color: blueviolet;
+
+ }
+
+ .desenvolvido {
+  margin: 3%;
+  background-color: grey;
+  padding: 1%;
+ }
+
+ .nave {
+    color: #22D4FD;
+    display: flex;
+    gap: 4px;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .menu {
+padding: 2% 41% 0 28%;
+width: 600px;
+text-align: center;
+ }
+
+  .naves1{
+    border: 1px solid #22D4FD;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #22D4FD;
+  }
+ 
+    .naves2 {
+      border: 1px solid #22D4FD;
+    border-radius: 2px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #22D4FD;
+    }
+
+    .naves3 {
+      border: 1px solid #22D4FD;
+    border-radius: 2px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #22D4FD;
+    }
+
+    .naves4 {
+      border: 1px solid #22D4FD;
+    border-radius: 2px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #22D4FD;
+    }
+
+    .naves1:hover {
+      background-color: blueviolet;
+
+    }
+
+    .naves2:hover {
+      background-color: blueviolet;
+
+    }
+    
+    .naves3:hover{
+      background-color: blueviolet;
+
+    }
+
+    .naves4:hover {
+      background-color: blueviolet;
+
+    }
+    .sobre {
+      margin: 10% 33%;
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    @media (max-width: 1200px) {
+      body {
+        flex-direction: column;
+      }
+
+    }
